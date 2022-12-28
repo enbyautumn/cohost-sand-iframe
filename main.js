@@ -1,7 +1,7 @@
 /** @type {HTMLCanvasElement} */
 let canvas = document.getElementById('canvas');
 let ctx = canvas.getContext('2d');
-let scale = (window.devicePixelRatio || 1) * 2;
+let scale = (window.devicePixelRatio || 1) * 4;
 canvas.width = window.innerWidth * scale;
 canvas.height = window.innerHeight * scale;
 ctx.scale(scale, scale);
